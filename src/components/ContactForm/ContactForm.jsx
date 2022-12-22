@@ -50,7 +50,7 @@ export const ContactForm = ({ handleSubmit }) => {
         onChange={handleChangeNumber}
       />
       <button className={styles.formBtn} type="submit">
-        Add contact
+        Add contacts
       </button>
     </form>
   );
