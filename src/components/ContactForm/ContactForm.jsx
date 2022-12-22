@@ -2,7 +2,7 @@ import propTypes from 'prop-types';
 import React, { useState } from 'react';
 import styles from './ContactForm.module.css';
 
-export const ContactForm = ({ handleSubmit }) => {
+export const ContactForm = () => {
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
 
